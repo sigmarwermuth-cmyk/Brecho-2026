@@ -1,0 +1,6 @@
+{
+  "name": "Brechó",
+  "description": "Aplicativo de marketplace e brechó online para compra e venda de roupas usadas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

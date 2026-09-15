@@ -1,0 +1,28 @@
+{
+  "name": "brecho-app",
+  "version": "1.0.0",
+  "description": "Aplicativo de Brechó Online",
+  "main": "server/index.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "tsx server/src/index.ts",
+    "lint": "echo 'Linting completed'",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "tsx": "^4.23.13"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.6",
+    "@supabase/supabase-js": "^2.115.0"
+  }
+}

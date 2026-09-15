@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Brecho App</string>
+    <string name="title_activity_main">Brecho App</string>
+    <string name="package_name">com.brechoapp.br</string>
+    <string name="custom_url_scheme">com.brechoapp.br</string>
+</resources>
